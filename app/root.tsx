@@ -1,7 +1,7 @@
 import { LiveReload } from 'remix'; // component for HMR
 import { Outlet } from 'remix'; // component for routes usage
 import { Links } from 'remix'; // links component (.css)
-import type { LinksFunction } from 'remix'; // for global css
+import type { LinksFunction } from 'remix'; // for global css typing
 
 import globalStylesUrl from './styles/global.css';
 import globalMediumStylesUrl from './styles/global-medium.css';

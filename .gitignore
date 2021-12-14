@@ -1,5 +1,9 @@
 node_modules
 
+# This is tutorial project, so don't need keep secretes
+# /prisma/dev.db
+# .env
+
 /.cache
 /build
 /public/build

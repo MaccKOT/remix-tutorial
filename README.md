@@ -1,6 +1,7 @@
-# Welcome to Remix!
+# Remix JS Crash Course
 
 - [Remix Docs](https://remix.run/docs)
+- [Tutorial Video](https://www.youtube.com/watch?v=3CAqFdVlbUA)
 
 ## Development
 

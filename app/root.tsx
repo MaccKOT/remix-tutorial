@@ -1,3 +1,5 @@
+import { LiveReload } from 'remix'; // component for HMR
+
 export default function App() {
   return (
     <html>
@@ -6,7 +8,8 @@ export default function App() {
         <title>Remix Jokes App</title>
       </head>
       <body>
-        <h1>Hello World</h1>
+        <h1>Hello World!</h1>
+        {process.env.NODE_ENV === 'development' ? <LiveReload /> : null}
       </body>
     </html>
   );

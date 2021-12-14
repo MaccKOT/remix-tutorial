@@ -1,4 +1,5 @@
 import { LiveReload } from 'remix'; // component for HMR
+import { Outlet } from 'remix'; // component for routes usage
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       </head>
       <body>
         <h1>Hello World!</h1>
+        <Outlet />
         {process.env.NODE_ENV === 'development' ? <LiveReload /> : null}
       </body>
     </html>
